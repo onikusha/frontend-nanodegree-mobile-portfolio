@@ -47,3 +47,35 @@ footer span { float: right; font-style: italic; }
   body { font-size: 12px;}
   header p { padding-left: 4.5em;}
 }
+
+/* ----- Custom style----- */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+}
+
+.clearfix:after { clear: both; }
+
+.about {
+  width: 100%;
+  margin: 21px 0;
+}
+
+  .about p { margin: 0; }
+  .about span {
+    display: inline-block;
+    line-height: 24px;
+    padding-top: 5px;
+  }
+
+  .leftBlock,
+  .rightBlock {
+    float: left;
+    min-height: 75px;
+  }
+
+  .leftBlock { min-width: 45%; }
+  .rightBlock { min-width: 55%; }
